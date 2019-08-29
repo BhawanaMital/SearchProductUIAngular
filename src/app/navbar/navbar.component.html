@@ -1,0 +1,18 @@
+<header>
+<mat-toolbar id="search">
+    <div>
+      <img id=logo src="assets/muzix.jpeg" />
+    </div>
+
+    <form class="example-form" id="form">
+      <mat-form-field class="example-full-width">
+        <input  matInput value = "Search for products" type="search" #searchString>
+      </mat-form-field>
+      <button mat-button mat-fab (click)=clickSearch(searchString.value)>
+            <mat-icon aria-hidden="false" aria-label="Example search icon">search</mat-icon>
+      </button>
+      </form>
+    <app-search></app-search>
+   
+  </mat-toolbar>
+  </header>

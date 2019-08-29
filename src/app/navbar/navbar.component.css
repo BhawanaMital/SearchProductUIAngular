@@ -1,0 +1,25 @@
+#logo{
+    width:100px;
+    /* float: left; */
+    padding-right: 10px;
+    }
+    #search >*:not(:first-child){
+    /* float: right; */
+    padding-left:370px;
+    }
+     #search{
+        position: sticky;
+        top: 0;
+        left: 0;
+        height: 100px;
+        width: 100%;
+        background-color: tomato;
+    
+    }
+    #button{
+    background-color:aliceblue;
+    }
+    
+    header {
+        z-index: 10;
+    }
